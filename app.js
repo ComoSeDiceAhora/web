@@ -15,7 +15,7 @@ app.get("/random", function (req, res) {
     fs.readFile('data.json', 'utf8', function (err, data) {
         var obj = JSON.parse(data);
 
-        var objRandom = obj[parseInt(Math.random() * obj.length)];
+        var objRandom = obj[Math.floor(Math.random() * obj.length)];
 
         res.render("search.jade", {
             yourSearch: objRandom.before[0],
