@@ -23,6 +23,6 @@ app.get("/:name", function (req, res) {
     });
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT || 5000, function () {
   console.log('Example app listening on port 3000!');
 });
