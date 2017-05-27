@@ -1,0 +1,161 @@
+[
+  {
+
+    "before": [
+      "Discapacitado",
+      "anormal",
+      "incapacitado",
+      "deficiente",
+      "diferente"
+    ],
+    "now": [
+      "Persona con discapacidad",
+      "Persona con habilidades diferentes"
+    ]
+
+  },
+  {
+
+    "before": [
+      "normal"
+    ],
+    "now": [
+      "Persona sin discapacidad"
+    ]
+
+  },
+  {
+
+    "before": [
+      "Anciano",
+      "viejo",
+      "mayor"
+    ],
+    "now": [
+      "Personas mayores"
+    ]
+
+  },
+  {
+    "before": [
+      "Ciego",
+      "Invidente",
+      "Cieguito",
+      "Cegato",
+      "tuerto"
+    ],
+    "now": [
+      "Persona con discapacidad visual",
+      "Persona con baja visi�n"
+    ]
+  },
+  {
+
+    "before": [
+      "Mudo",
+      "Sordomudo"
+    ],
+    "now": [
+      "Persona sin habla",
+      "Persona que utiliza comunicaci�n aumentativa",
+      "Persona con hipoacusia"
+    ]
+  },
+  {
+
+    "before": [
+      "Mutilado",
+      "invalido",
+      "paral�tico",
+      "cojo",
+      "tullido",
+      "lisiado"
+    ],
+    "now": [
+      "Persona con discapacidad f�sica",
+      "Persona con movilidad reducida"
+    ]
+  },
+  {
+
+    "before": [
+      "Confinado",
+      "Postrado",
+      "minusvalido"
+    ],
+    "now": [
+      "Persona usuaria de silla de ruedas"
+    ]
+  },
+  {
+
+    "before": [
+      "vegetal"
+    ],
+    "now": [
+      "Persona con par�lisis cerebral"
+    ]
+  },
+  {
+    "before": [
+      "defectuoso"
+    ],
+    "now": [
+      "Persona con discapacidad cong�nita"
+    ]
+  },
+  {
+    "before": [
+      "Epileptico",
+      "Epiletico"
+    ],
+    "now": [
+      "Persona con epilepsia"
+    ]
+  },
+  {
+    "before": [
+      "Loco",
+      "demente",
+      "trastornado"
+    ],
+    "now": [
+      "Persona con epilepsia"
+    ]
+  },
+  {
+    "before": [
+      "Mongolico",
+      "retardado",
+      "retrasado",
+      "trastornado"
+    ],
+    "now": [
+      "Persona con discapacidad intelectual"
+    ]
+  },
+  {
+    "before": [
+      "Imbecil",
+      "tonto",
+      "subnormal"
+    ],
+    "now": [
+      "Persona con s�ndrome de Down"
+    ]
+  },
+  {
+    "before": [
+      "Demente",
+      "enfermo_mental"
+    ],
+    "now": [
+      "Persona con discapacidad ps�quica",
+      "Persona con enfermedad mental."
+    ]
+  }
+
+
+
+
+]

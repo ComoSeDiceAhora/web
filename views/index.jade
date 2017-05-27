@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        title= "Como se dice ahora" 
+        script
+        link(href="https://fonts.googleapis.com/css?family=Oswald", rel='stylesheet')
+        link(href='static/css/styles.css', rel='stylesheet')
+            
+    body
+        div
+            p= yourSearch + " ahora se dice:"
+        div
+            ul
+                for n in result.now
+                    li= n
+                else
+                    p no hay informacion para esta palabra
