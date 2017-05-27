@@ -7,6 +7,23 @@ app.set('view engine', 'jade');
 
 app.use('/static', express.static(__dirname + '/public'));
 
+app.get("/", function (req, res) {
+    res.render("index.jade");
+});
+
+app.get("/random", function (req, res) {
+    fs.readFile('data.json', 'utf8', function (err, data) {
+        var obj = JSON.parse(data);
+
+        var objRandom = obj[parseInt(Math.random() * obj.length)];
+
+        res.render("search.jade", {
+            yourSearch: objRandom.before[0],
+            result: objRandom
+        });
+    });
+});
+
 app.get("/:name", function (req, res) {
     var keyToMatch = req.params.name;
 
@@ -16,7 +33,7 @@ app.get("/:name", function (req, res) {
             return register.before.filter (b => b === keyToMatch).length > 0;
         });
         
-        res.render("index.jade", {
+        res.render("search.jade", {
             yourSearch: keyToMatch,
             result: (result.length === 0)? {now: []} : result[0]
         });
@@ -24,5 +41,5 @@ app.get("/:name", function (req, res) {
 });
 
 app.listen(process.env.PORT || 5000, function () {
-  console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 5000!');
 });

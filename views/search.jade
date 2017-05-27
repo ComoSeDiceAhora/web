@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset='utf-8')
+        title= (result.now[0])? yourSearch + " ahora se dice " + result.now[0] : "No encontrado"
+        script
+        link(href="https://fonts.googleapis.com/css?family=Oswald", rel='stylesheet')
+        link(href='static/css/styles.css', rel='stylesheet')
+            
+    body
+        div
+            p= yourSearch.charAt(0).toUpperCase() + yourSearch.slice(1) + " ahora se dice:"
+        div
+            ul
+                for n in result.now
+                    li= n
+                else
+                    p no hay informacion para esta palabra

@@ -46,7 +46,7 @@
     ],
     "now": [
       "Persona con discapacidad visual",
-      "Persona con baja visi�n"
+      "Persona con baja visión"
     ]
   },
   {
@@ -57,7 +57,7 @@
     ],
     "now": [
       "Persona sin habla",
-      "Persona que utiliza comunicaci�n aumentativa",
+      "Persona que utiliza comunicación aumentativa",
       "Persona con hipoacusia"
     ]
   },
@@ -66,13 +66,13 @@
     "before": [
       "Mutilado",
       "invalido",
-      "paral�tico",
+      "paralítico",
       "cojo",
       "tullido",
       "lisiado"
     ],
     "now": [
-      "Persona con discapacidad f�sica",
+      "Persona con discapacidad física",
       "Persona con movilidad reducida"
     ]
   },
@@ -93,7 +93,7 @@
       "vegetal"
     ],
     "now": [
-      "Persona con par�lisis cerebral"
+      "Persona con parálisis cerebral"
     ]
   },
   {
@@ -101,7 +101,7 @@
       "defectuoso"
     ],
     "now": [
-      "Persona con discapacidad cong�nita"
+      "Persona con discapacidad congénita"
     ]
   },
   {
@@ -141,7 +141,7 @@
       "subnormal"
     ],
     "now": [
-      "Persona con s�ndrome de Down"
+      "Persona con síndrome de Down"
     ]
   },
   {
@@ -150,12 +150,8 @@
       "enfermo_mental"
     ],
     "now": [
-      "Persona con discapacidad ps�quica",
+      "Persona con discapacidad psíquica",
       "Persona con enfermedad mental."
     ]
   }
-
-
-
-
 ]
